@@ -3,15 +3,15 @@ The project for which i am building the rpm is a python cgi based web applicatio
 
 1. Install **rpm-build** and **rpmdevtools**.
 2. Now run\n 
-   **$rpmdev-setuptree** \n
-   this command will setup the directory structure required for rpmbuild as shown in the directory tree    bellow.\n
-    **BUILD** - The rpmbuild command builds software in this directory.\n
-    **RPMS** - The rpmbuild command stores binary RPMs it creates in this directory.\n
-       *NOTE*:Binary packages are likely the real reason to make an RPM. We can package an application, a programming library, or almost anything we want. Armed with a binary RPM, we can transfer one file to another machine and install the application there, taking full advantage of the RPM system.\n
-    **SOURCES** - The sources for the application should be put in this directory.\n
-    **SPEC** - The spec file for each RPM we plan to build should be in this directory.\n
-    **SRPMS** - The rpmbuild command stores source RPMs it creates in this directory.\n
-       *NOTE*:Creating a source RPM also allows us to transfer the entire set of sources for a package to another system, since the source RPM is just one file and it contains all the program sources along with the instructions, called a spec file, for building the binary RPM. Furthermore, creating a source RPM makes it easier to create binary RPMs on different processor architectures or different versions of Linux.\n
+   **$rpmdev-setuptree**   \n
+   this command will s etup the directory structure required for rpmbuild as shown in the directory tree    bellow.   \n
+    **BUILD** - The rpmbuild command builds software in this directory.   \n
+    **RPMS** - The rpmbuild command stores binary RPMs it creates in this directory.  \n
+       *NOTE*:Binary packages are likely the real reason to make an RPM. We can package an application, a programming library, or almost anything we want. Armed with a binary RPM, we can transfer one file to another machine and install the application there, taking full advantage of the RPM system.  \n
+    **SOURCES** - The sources for the application should be put in this directory.  \n
+    **SPEC** - The spec file for each RPM we plan to build should be in this directory.  \n
+    **SRPMS** - The rpmbuild command stores source RPMs it creates in this directory.  \n
+       *NOTE*:Creating a source RPM also allows us to transfer the entire set of sourc es for a package to another system, since the source RPM is just one file and it contains all the program sources along with the instructions, called a spec file, for building the binary RPM. Furthermore, creating a source RPM makes it easier to create binary RPMs on different processor architectures or different versions of Linux.  \n
 
 3. Go to SOURCES directory and create a directory with the name of your project and then copy the html and cgi-bin folder into that directory. example SOURCES/myproject/html/* and SOURCES/myproject/cgi-bin/*
 4. Create SPECS/myproject.spec file. This file is the main file which has the specification for the rpm that is going to be created.
