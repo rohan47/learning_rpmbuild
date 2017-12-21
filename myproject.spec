@@ -1,7 +1,7 @@
-%define _topdir                /home/harry/rpmbuild      
-%define name                myproject                 
-%define release                1              
-%define version                1                           
+%define _topdir           /home/harry/rpmbuild      
+%define name              myproject                 
+%define release           1              
+%define version           1                           
 %define buildroot         %{_topdir}/%{name}-%{version}-root  
 
 BuildRoot:      %{buildroot}      
