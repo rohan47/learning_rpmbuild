@@ -12,7 +12,7 @@ Version:        %{version}
 Release:        %{release}
 Source:         %{name}
 Prefix:         /var    
-Group:          Development/Tools 
+Group:          Applications/System 
 Requires:       tty,shellinabox,ansible,httpd,python2,
                 pip,libvirt,qemu-kvm,virt-manager
 
