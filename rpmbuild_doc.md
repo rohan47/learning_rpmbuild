@@ -60,7 +60,7 @@ Version:        %{version}
 Release:        %{release}
 Source:         %{name}
 Prefix:         /var                             # to make the package relocable
-Group:          Development/Tools                # the group or catagory in which the project belongs
+Group:          Applications/System              # the group or catagory in which the project belongs
 Requires:       tty,shellinabox,ansible,httpd,python2,
                 pip,libvirt,qemu-kvm,virt-manager        # the tools required by the project
 
