@@ -1,4 +1,4 @@
 # [Steps to build rpm of personal project.](/rpmbuild_doc.md)
 
-## [RPM guide](https://docs-old.fedoraproject.org/en-US/Fedora_Draft_Documentation/0.1/html/RPM_Guide/index.html)
+## [RPM Packaging Guide by Adam Miller, Maxim Svistunov, Marie Doleželová, et al.](https://rpm-packaging-guide.github.io)
 
