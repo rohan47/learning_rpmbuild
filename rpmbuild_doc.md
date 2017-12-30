@@ -160,3 +160,5 @@ To sign the rpm we need to have gnupg tool installed.
 %preun      # Steps to be taken before removal of package.
 %postun     # Stepd to be taken after removal of packages.
 ```
+## [RPM Packaging Guide by Adam Miller, Maxim Svistunov, Marie Doleželová, et al.](https://rpm-packaging-g
+uide.github.io)
